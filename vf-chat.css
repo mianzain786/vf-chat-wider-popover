@@ -6,10 +6,3 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
     overflow: hidden;
   }
-  
-  /* Optional: Tweak message bubble padding or font size */
-  .vfrc-bubble--user,
-  .vfrc-bubble--assistant {
-    font-size: 15px;
-    line-height: 1.5;
-  }
