@@ -1,39 +1,48 @@
-/* Custom styling for the chat container */
-.s9t60i0 {
-    height: 100%;
-    width: 1200px;  /* Adjust the width as needed */
-    max-width: 95vw;  /* Ensure it's responsive */
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    background-color: #fff;
-    position: relative;
-    box-shadow: 0 0 0 1px #161a1e0f, #161a1e29 0 8px 80px;
-    overflow: hidden;
-}
-
-._1wkq7nfc {
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 500%;
-    height: 500%;
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
-    filter: blur(4px);
-    background-color: #00000029;
-    z-index: 10;
-    pointer-events: all;
-}
-
-._1wkq7nf0 {
-    position: fixed;
-    top: 0;
-    right: 30vw;
-    bottom: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: 10000;
-}
+@media screen and (min-width: 1024px) {
+    /* Chat Container */
+    .s9t60i0 {
+      height: 100%;
+      width: 1200px;
+      max-width: 95vw;
+      display: flex;
+      flex-direction: column;
+      border-radius: 16px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: 0 0 0 1px #161a1e0f, #161a1e29 0 8px 80px;
+      overflow: hidden;
+    }
+  
+    /* Chat Background Overlay */
+    ._1wkq7nfc {
+      display: block;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 500%;
+      height: 500%;
+      -webkit-backdrop-filter: blur(4px);
+      backdrop-filter: blur(4px);
+      filter: blur(4px);
+      background-color: #00000029;
+      z-index: 10;
+      pointer-events: all;
+    }
+  
+    ._1wkq7nf0 {
+      position: fixed;
+      top: 0;
+      right: 30vw;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 10000;
+    }
+  
+    /* Launcher Position: bottom-right with offset */
+    .vfrc-launcher {
+      bottom: 40px !important;
+      right: 40px !important;
+    }
+  }
