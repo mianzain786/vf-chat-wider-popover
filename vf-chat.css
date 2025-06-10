@@ -12,10 +12,26 @@
     overflow: hidden;
 }
 
+._1wkq7nfc {
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500%;
+    height: 500%;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    filter: blur(4px);
+    background-color: #00000029;
+    z-index: 10;
+    pointer-events: all;
+}
+
 ._1wkq7nf0 {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 30vw;
     bottom: 0;
     left: 0;
     pointer-events: none;
