@@ -1,6 +1,6 @@
 /* Make the entire chat widget container wider */
 .vfrc-chat--overlay {
-    width: 700px !important;   /* adjust this to your preferred width */
+    width: 1000px !important;   /* adjust this to your preferred width */
     max-width: 95vw;           /* still responsive on smaller screens */
     border-radius: 12px !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
