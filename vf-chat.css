@@ -1,1 +1,13 @@
-hello
+/* Custom styling for the chat container */
+.s9t60i0 {
+    height: 100%;
+    width: 1000px;  /* Adjust the width as needed */
+    max-width: 95vw;  /* Ensure it's responsive */
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 0 1px #161a1e0f, #161a1e29 0 8px 80px;
+    overflow: hidden;
+}
